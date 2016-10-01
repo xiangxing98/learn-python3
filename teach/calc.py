@@ -64,14 +64,14 @@ if age >= 18:
 else:
     print('teenager')
 
-a = 123 # aÊÇÕûÊı
+a = 123 # aæ˜¯æ•´æ•°
 print(a)
-a = 'ABC' # a±äÎª×Ö·û´®
+a = 'ABC' # aå˜ä¸ºå­—ç¬¦ä¸²
 print(a)
 
-#// aÊÇÕûÊıÀàĞÍ±äÁ¿
+#// aæ˜¯æ•´æ•°ç±»å‹å˜é‡
 a = 123 
-# // ´íÎó£º²»ÄÜ°Ñ×Ö·û´®¸³¸øÕûĞÍ±äÁ¿
+# // é”™è¯¯ï¼šä¸èƒ½æŠŠå­—ç¬¦ä¸²èµ‹ç»™æ•´å‹å˜é‡
 a = "ABC"
 
 a = 'ABC'
@@ -93,23 +93,23 @@ print(n,f,s1,s2,s3,s4)
 ord('A')
 #65
 
-ord('ÖĞ')
+ord('ä¸­')
 #20013
 
 chr(66)
 #'B'
 
 chr(25991)
-#'ÎÄ'
+#'æ–‡'
 
 '\u4e2d\u6587'
-#'ÖĞÎÄ'
+#'ä¸­æ–‡'
 
 'ABC'.encode('ascii')
 #b'ABC'
-'ÖĞÎÄ'.encode('utf-8')
+'ä¸­æ–‡'.encode('utf-8')
 #b'\xe4\xb8\xad\xe6\x96\x87'
-'ÖĞÎÄ'.encode('ascii')
+'ä¸­æ–‡'.encode('ascii')
 #Traceback (most recent call last):
 #  File "<stdin>", line 1, in <module>
 #UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
@@ -117,4 +117,4 @@ chr(25991)
 b'ABC'.decode('ascii')
 #'ABC'
 b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
-#'ÖĞÎÄ'
+#'ä¸­æ–‡'
