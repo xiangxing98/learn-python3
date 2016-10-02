@@ -89,7 +89,9 @@ s4 = r'''Hello,
 Lisa!'''
 print(n,f,s1,s2,s3,s4)
 
-#code
+#coding,
+#在计算机内存中，统一使用Unicode编码，
+#当需要保存到硬盘或者需要传输的时候，就转换为UTF-8编码。
 ord('A')
 #65
 
@@ -109,7 +111,9 @@ chr(25991)
 #b'ABC'
 '中文'.encode('utf-8')
 #b'\xe4\xb8\xad\xe6\x96\x87'
-'中文'.encode('ascii')
+
+#encode error
+#'中文'.encode('ascii')
 #Traceback (most recent call last):
 #  File "<stdin>", line 1, in <module>
 #UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
@@ -118,3 +122,12 @@ b'ABC'.decode('ascii')
 #'ABC'
 b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
 #'中文'
+
+#A first Python Script
+import sys
+
+print(sys.platform)
+print(2 ** 100) #Raise 2 to a power
+x = 'Spam!'
+print(x * 8)	#String Repetition
+input()
