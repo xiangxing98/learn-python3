@@ -31,18 +31,20 @@ print(List_examp[1][1])
 # 打印Lisa:
 print(List_examp[2][2])
 
-s = [
+s1 = [
 		'python', 
 		'java', 
 		['asp', 'php'], 
 		'scheme'
 	]
-len(s)
+print("lenth of list s1 is",len(s1))
 # 4
 
 p = ['asp', 'php']
-s = ['python', 'java', p, 'scheme']
+s2 = ['python', 'java', p, 'scheme']
+print("lenth of list s2 is",len(s2))
+
 
 L = []
-len(L)
+print("L is the empty list, Lenth of L is",len(L))
 # 0
