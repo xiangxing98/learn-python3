@@ -36,4 +36,5 @@ Python 3 教程
 
 如果只是想用Linux，那可以直接上手Ubuntu，这是一个对新手非常友好的Linux发行版。但如果想比较系统地学下Linux，那还是推荐看鸟哥的Linux私房菜。
 
+### [django-tutorial](http://www.ziqiangxuetang.com/django/django-tutorial.html "django中文教程")
 
