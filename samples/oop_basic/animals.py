@@ -27,6 +27,16 @@ print('a is Cat?', isinstance(a, Cat))
 
 print('d is Animal?', isinstance(d, Animal))
 print('d is Dog?', isinstance(d, Dog))
-print('d is Cat?', isinstance(d, Cat))
+print('d is Cat?', isinstance(d, Cat),'\n')
 
 run_twice(c)
+
+#a is Animal? True
+#a is Dog? False
+#a is Cat? False
+#d is Animal? True
+#d is Dog? True
+#d is Cat? False 
+#
+#Cat is running...
+#Cat is running...
