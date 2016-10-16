@@ -38,3 +38,8 @@ Python 3 教程
 
 ### [django-tutorial](http://www.ziqiangxuetang.com/django/django-tutorial.html "django中文教程")
 
+### 2016年十月16的一些
+http://www.pythontab.com/
+https://github.com/Vamei
+http://www.cnblogs.com/vamei
+https://www.douban.com/people/Oceannagirl/
