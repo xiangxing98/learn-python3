@@ -38,6 +38,10 @@ git commit * -m "what I want told to someone"
 
 //更新到远程服务器上
 git push origin master
+
+//删除已经缓存修改的文件*spyder*,然后重新添加提交
+git rm -r -f --cached *spyder*
+
 ```
 
 ## [recommand-some-free-stuff](http://www.paidepaiper.top/2016/09/29/recommand-some-free-stuff/#more "recommand-some-free-stuff")
