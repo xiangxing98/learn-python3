@@ -215,3 +215,21 @@ isinstance([1,2,3],(list, tuple))#True
 
 
 """
+
+a=3;b=3 
+print(a is b) #True 
+print(a+3 is b+3) #True 
+print(a+300 is b+300) #False 
+
+print(type([])) #<type 'list'> 
+print(type(())) #<type 'tuple'> 
+print(type(([]))) #<type 'list'> 
+print(type(([(())]))) #<type 'list'> 
+
+c = d = 4; c *= 4 
+print(c is d) #False 
+e = f = [4]; e *= 4 
+print(e is f) #True 
+
+print(type({():()})) #<type 'dict'> 
+print(type({[]:[]})) #TypeError: unhashable type: 'list'

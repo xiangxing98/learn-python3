@@ -3,6 +3,8 @@
 
 # set和dict类似，也是一组key的集合，但不存储value。
 # 由于key不能重复，所以，在set中，没有重复的key。
+# set元素没有重复，而且无序，与dict的key很像
+
 s1 = set([1, 1, 2, 2, 3, 3])
 print(s1)
 # {1, 2, 3}
@@ -127,3 +129,16 @@ print(d2)
 s3 = set((1,2,3))
 print(s3)
 #{1, 2, 3}
+
+s = set(['Adam','Lisa','Bart'])
+for name in s:
+    print(name)
+
+t = set([('Adam',98),('Lisa',87),('Bart',99)])
+for n in t:
+    print("%s:%s" %(t[0],t[1]))
+#TypeError: 'set' object does not support indexing
+#Adam:98
+#Lisa:87
+#Basrt:99
+

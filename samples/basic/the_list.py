@@ -48,3 +48,22 @@ print("lenth of list s2 is",len(s2))
 L = []
 print("L is the empty list, Lenth of L is",len(L))
 # 0
+
+#List element Append/insert, delete, modify
+listExample =['Adam','Lisa','Bart', 'Stone_Hou']
+listExample.append('Siqin') ##add Siqin after the List
+print(listExample)
+listExample.insert(0,'Paul1') #add Paul before the 1st element
+print(listExample)
+listExample.insert(-1,'Paul2')#add Paul before the last element
+print(listExample)
+#del(listExample)
+
+listExample.pop(1)
+listExample.pop(0)
+print(listExample)
+
+#list modify
+listExample[0] = 'Liang_Duan'
+print(listExample)
+

@@ -3,6 +3,8 @@
 
 # runfile('E:/Github/learn-python3/samples/basic/the_dict.py', wdir='E:/Github/learn-python3/samples/basic')
 
+# dict使用key返回对应的value
+
 d = {
     'Michael': 95,
     'Bob': 75,
@@ -25,13 +27,18 @@ d['Jack'] = 88
 d['Jack']
 # 88
 
-# 要避免key不存在的错误，有两种办法，一是通过in判断key是否存在：
-# 二是通过dict提供的get方法，如果key不存在，可以返回None，或者自己指定的value：
-'Thomas' in d
+# 要避免key不存在的错误，有两种办法，
+#一是通过in判断key是否存在：
+if 'Paul' in d: 
+    print(d['Paul'])
+#'Thomas' in d
 # False
-
+    
+#二是通过dict提供的get方法，如果key不存在，可以返回None，或者自己指定的value：
 d.get('Thomas')
 d.get('Thomas', -1)
+print(d.get('Thomas'))
+
 # 注意：返回None的时候Python的交互式命令行不显示结果。
 #-1
 
@@ -43,3 +50,7 @@ print("After pop out Bob, diction d is as follow:\n", d)
 
 d = {1,2,3}
 print(d)
+
+#dict以key:value的形式输出
+for key in d:
+        print("%s:%s" %(key,d[key]))  #通过key查value: d[key]
