@@ -22,4 +22,4 @@ def signin():
     return render_template('form.html', message='Bad username or password', username=username)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
