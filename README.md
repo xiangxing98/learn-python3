@@ -66,8 +66,16 @@ git rm -r -f --cached *spyder*
 
 ### [django-tutorial](http://www.ziqiangxuetang.com/django/django-tutorial.html "django中文教程")
 
-### 2016年十月16的一些
+### Python 相关的一些资源
+> 2016年十月16的一些
+
 http://www.pythontab.com/
+
 https://github.com/Vamei
+
 http://www.cnblogs.com/vamei
+
 https://www.douban.com/people/Oceannagirl/
+
+### Learn Python the Hard Way-By ZED A. SHAW
+[Learn Python the Hard Way-By ZED A. SHAW https://learnpythonthehardway.org/book/](https://learnpythonthehardway.org/book/ "Learn Python the Hard Way-By ZED A. SHAW")
