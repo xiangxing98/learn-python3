@@ -75,3 +75,6 @@ MANIFEST
 # Spyder projects 
 *.spyderproject
 *.spyder*
+
+#PyCharm Projects
+.idea
