@@ -108,28 +108,28 @@ numbers = [1,2,3,4,5,6]
 even = [number for number in numbers if number%2 == 0]
 ```
 
-## 11. 字典推导
+## 10. 字典推导
 ```
 teams = ["Packers", "49ers", "Ravens", "Patriots"]
 print {key: value for value, key in enumerate(teams)}
 >>> {'49ers': 1, 'Ravens': 2, 'Patriots': 3, 'Packers': 0}
 ```
 
-## 12. 初始化列表的值
+## 11. 初始化列表的值
 ```
 items = [0]*3
 print items
 >>> [0,0,0]
 ```
 
-## 13. 将列表转换成字符串
+## 12. 将列表转换成字符串
 ```
 teams = ["Packers", "49ers", "Ravens", "Patriots"]
 print ", ".join(teams)
 >>> 'Packers, 49ers, Ravens, Patriots'
 ```
 
-## 14. 从字典中获取元素
+## 13. 从字典中获取元素
 ```
 不要用下列的方式
 data = {'user': 1, 'name': 'Max', 'three': 4}
@@ -142,7 +142,7 @@ data = {'user': 1, 'name': 'Max', 'three': 4}
 is_admin = data.get('admin', False)
 ```
 
-## 15. 获取子列表
+## 14. 获取子列表
 ```
 x = [1,2,3,4,5,6]
 #前3个
@@ -162,7 +162,7 @@ print x[1::2]
 >>> [2,4,6]
 ```
 
-## 16. 60个字符解决FizzBuzz
+## 15. 60个字符解决FizzBuzz
 ```
 前段时间Jeff Atwood 推广了一个简单的编程练习叫FizzBuzz，问题引用如下：
 写一个程序，打印数字1到100，3的倍数打印“Fizz”来替换这个数，5的倍数打印“Buzz”，对于既是3的倍数又是5的倍数的数字打印“FizzBuzz”。
@@ -170,7 +170,7 @@ print x[1::2]
 for x in range(101):print"fizz"[x%3*4::]+"buzz"[x%5*4::]or x
 ```
 
-## 17. 集合
+## 16. 集合
 ```
 用到Counter库
 from collections import Counter
@@ -178,7 +178,7 @@ print Counter("hello")
 >>> Counter({'l': 2, 'h': 1, 'e': 1, 'o': 1})
 ```
 
-## 18. 迭代工具
+## 17. 迭代工具
 ```
 和collections库一样，还有一个库叫itertools
 from itertools import combinations
