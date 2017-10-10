@@ -3,6 +3,8 @@ Python 3 教程
 <!-- MarkdownTOC -->
 
 - Python3 Free Course From liaoxuefeng
+- Git 日常发布流程
+- recommand-some-free-stuff
 
 <!-- /MarkdownTOC -->
 
